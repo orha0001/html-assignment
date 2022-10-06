@@ -1,0 +1,64 @@
+/* My awesome CSS! */
+
+body {
+    background-color: blanchedalmond;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: coral;
+}
+
+.site-title {
+    color:darkblue;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.hobbies {
+    list-style-type: circle;
+}
+
+.hobbies :nth-child(odd) {
+    background: burlywood;
+}
+  
+    a:link, a:visited {
+    background-color: #f44336;
+    color: blanchedalmond;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover {
+    background-color: transparent;
+    color:black;
+    border: 1px solid #f44336;
+  }
+  a:active {
+    background-color: greenyellow;
+    color: black
+  }
+ 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+  }
+  
+  li {
+    display:inline;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
